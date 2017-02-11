@@ -4,15 +4,16 @@ function clicked(){
 
 }
 
-var TextOptions = ["Bad call", "that was silly", "I cant believe youve done this"];
+var TextOptions = ["Bad call", "that was silly", "I cant believe youve done this", "wow", "That was terrible", "please not again"];
 
 
-var i = 0;
+
 
 function selectIt(){
+    var rand = Math.round(Math.random() * 5);
+console.log(rand);
+        var elem = TextOptions[rand];
 
-    var elem = TextOptions[i];
-    i++;
     return elem;
 }
 
