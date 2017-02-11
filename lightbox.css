@@ -12,3 +12,10 @@
     position: relative;
     top: calc(50% - 1em);
 }
+
+#play_button {
+    position:absolute;
+    transition: .5s ease;
+    top: 65%;
+    left: 47%;
+}
