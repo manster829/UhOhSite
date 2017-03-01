@@ -14,8 +14,8 @@
 }
 
 #play_button {
-    position:absolute;
     transition: .5s ease;
-    top: 65%;
-    left: 46.8%;
+    position: absolute;
+    top: calc(50% + 3em);
+    left: calc(50% - 4em);
 }
